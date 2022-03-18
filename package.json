@@ -1,0 +1,30 @@
+{
+  "name": "dotenv-ajv",
+  "version": "1.0.0",
+  "description": "Dotenv json schema validator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbriatte/dotenv-ajv.git"
+  },
+  "keywords": [
+    "dotenv",
+    "ajv",
+    "json",
+    "schema"
+  ],
+  "author": "bbriatte",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bbriatte/dotenv-ajv/issues"
+  },
+  "homepage": "https://github.com/bbriatte/dotenv-ajv#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "ajv": "^8.10.0",
+    "dotenv": "^16.0.0"
+  }
+}
